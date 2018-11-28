@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "lxy",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./app demo --all --out ./OutApp  --electron-version 3.0.0 --overwrite"
+  },
+  "keywords": [
+    "209735"
+  ],
+  "author": "lxy",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.0",
+    "electron-packager": "^12.1.2"
+  }
+}

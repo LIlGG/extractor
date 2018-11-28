@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <script>
+    window.Myrequire = window.require;//(如果需要)
+    window.Myexports = window.exports;
+    window.Mymodule = window.module;
+    delete window.require;
+    delete window.exports;
+    delete window.module;
+  </script>
+  <script src="./static/common/jquery/jquery-3.3.1.min.js"></script>
+  <script src="./static/js/demo.js"></script>
+  <style>
+    #holder {
+      text-align: center;
+      background-color: #fff;
+      border-radius: 20px;
+      width: 80%;
+      height: 80%;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="holder">
+    将文件夹/文件拖入面板进行选择或点击面板进行文件选择
+  </div>
+</body>
+
+</html>
